@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #bb3232;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#inicio1 {
+    background-color: #ff8181;
+    padding: 100px;
+    display: flex;
+    justify-content:space-between;
+}
+
+#inicio1 h2 {
+    font-size: 60px;
+}
+#inicio1 img {
+    width: 500px;
+}
+
+#opcoes_main {
+    margin-top: 25px;
+    border-radius: 100px;
+}
+#botao_amarelo {
+    text-decoration: none;
+    background-color: yellow;
+    padding: 10px;
+}
+
+#botao_azul {
+    text-decoration: none;
+    background-color: rgb(53, 53, 112);
+    padding: 10px;
+    color: white
+}
+
+.amarelo {
+    color: yellow;
+}
