@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'inter', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #1E0038;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+}
+
+header h1 {
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+#titulo_header {
+    display: flex;
+    gap: 20px;
+}
+
+#titulo_header p {
+    background-color: rgb(17, 171, 0);
+    color: #1E0038;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 100px
+}
+
+#descricao_curiosidades {
+    background-color: #462f73;
+    padding: 60px
+}
+
+#descricao_curiosidades h2 {
+    font-size: 50px;
+}
+
+#tela_curiosidades {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 25px;
+    background-color: white;
+}
+
+#tela_curiosidades_margem {
+    background-color: #c7c6c6;
+    padding: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#tela_curiosidades img {
+    width: 600px;
+    border-radius: 20px;
+}
+
+#section_imagem p {
+    color: #01010193;
+    text-align: center;
+}
+
+#tela_curiosidades_titulo h2 {
+    color: #1E0038;
+}
+
+#tela_curiosidades_titulo p {
+    color: #462f73;
+}
+
+
+.curiosidade {
+    background-color: #4a008a4d;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    gap: 20px;
+}
+
+.curiosidade h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+
+footer {
+    background-color: #1E0038;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    color: white
+}
+
+.botao_verde {
+    text-decoration: none;
+    background-color:rgb(17, 171, 0);
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color:#49008A
+}
+
+.botao_claro {
+    text-decoration: none;
+    background-color: #5F00B3;
+    padding: 12px;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.verde {
+    color: rgb(17, 171, 0);
+}

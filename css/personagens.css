@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'inter', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #1E0038;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+}
+
+header h1 {
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+#titulo_header {
+    display: flex;
+    gap: 20px;
+}
+
+#titulo_header p {
+    background-color: rgb(17, 171, 0);
+    color: #1E0038;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 100px
+}
+
+#descricao_personagens {
+    background-color: #462f73;
+    padding: 60px
+}
+
+#descricao_personagens h2 {
+    font-size: 50px;
+}
+
+#galeria {
+    background-color: #c7c6c6;
+}
+
+#titulo_galeria {
+    padding: 30px;
+    color:#462f73;
+}
+
+#titulo_galeria h2 {
+    font-size: 40px;
+    color: #1E0038;
+}
+
+
+#img-galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+
+#card {
+    background-color: #ffffff;
+    margin: 1%;
+    text-align: center;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+
+#card img {
+    width: 400px;
+    height: 250px;
+    padding-bottom: 2%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+
+
+footer {
+    background-color: #1E0038;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    color: white
+}
+
+.botao_verde {
+    text-decoration: none;
+    background-color:rgb(17, 171, 0);
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color:#49008A
+}
+
+.botao_claro {
+    text-decoration: none;
+    background-color: #5F00B3;
+    padding: 12px;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.verde {
+    color: rgb(17, 171, 0);
+}
